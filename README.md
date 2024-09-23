@@ -11,6 +11,8 @@ According to salary.com the average salary for a New York Taxi Driver is around 
 ## Data Understanding
 
 The NYC Taxi and Limousine Commission data came from NYC.gov. The data consisted of approximately 408k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
+![Non-Generous vs Generous Tippers](https://github.com/chungchenran2/NYC_Taxi_Gratuity_Prediction_Project/blob/main/Images/Non-Generous_Generous_Tippers.png)
+In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.
 
 ## Modeling and Evaluation
 
