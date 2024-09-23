@@ -16,7 +16,9 @@ In connection to this, a feature was engineered to represent if a ride was taken
 
 ## Modeling and Evaluation
 
-
+An XGBoost model comprising 500 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that TPEP provider, predicted ride fare, and mean ride distance were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 67.9% accuracy, 67.7% precision, and 74.5% recall.
+![XGBoost Feature Importance](https://github.com/chungchenran2/NYC_Taxi_Gratuity_Prediction_Project/blob/main/Images/XGBoost_feature_importance.png)
 
 ## Conclusion
 
+This model can benefit Taxi Drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
